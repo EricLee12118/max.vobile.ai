@@ -1,9 +1,11 @@
 import { Header } from "@/components/header";
 import { HeroSection } from "@/components/hero-section";
-import { FeaturesSection } from "@/components/features-section";
-import { StatsSection } from "@/components/stats-section";
-import { CTASection } from "@/components/cta-section";
+import { DataOverviewSection } from "@/components/data-overview-section";
+import { DigitalValueSection } from "@/components/digital-value-section";
+import { EcosystemSection } from "@/components/ecosystem-section";
+import { TokenizedIPSection } from "@/components/tokenized-ip-section";
 import { Footer } from "@/components/footer";
+import { ScrollToTop } from "@/components/scroll-to-top";
 
 export default function Home() {
   return (
@@ -14,16 +16,19 @@ export default function Home() {
       {/* 主要内容 */}
       <div className="relative z-10">
         <Header />
-        
+        <HeroSection />
         <main>
-          <HeroSection />
-          <FeaturesSection />
-          <StatsSection />
-          <CTASection />
+          <DataOverviewSection />
+          <DigitalValueSection />
+          <EcosystemSection />
+          <TokenizedIPSection />
         </main>
         
         <Footer />
       </div>
+      
+      {/* 回到顶部按钮 */}
+      <ScrollToTop />
     </div>
   );
 }
