@@ -50,7 +50,7 @@ export function ScrollToTop() {
     <button
       onClick={scrollToTop}
       className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gray-800/90 backdrop-blur-sm hover:bg-gray-700 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 active:scale-95 group flex items-center justify-center"
-      aria-label="回到顶部"
+      aria-label="Back to top"
       type="button"
     >
       {/* 进度环 */}

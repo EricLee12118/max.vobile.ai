@@ -1,6 +1,16 @@
 "use client";
 
-export function HeroSection() {
+interface HeroSectionProps {
+  videoSrc?: string;
+  mainTitle?: string;
+  subtitle?: string;
+}
+
+export function HeroSection({ 
+  videoSrc = "https://vobile-apps.oss-cn-hangzhou.aliyuncs.com/apollo/homepage2.mp4",
+  mainTitle = "Making Creative More Valuable™",
+  subtitle = "Power the Future of the Creative Economy"
+}: HeroSectionProps = {}) {
   return (
     /* 主视觉区域 */
     <section className="relative min-h-[80vh] flex items-center justify-end overflow-hidden">
@@ -11,9 +21,12 @@ export function HeroSection() {
         muted 
         playsInline
         className="absolute inset-0 w-full h-full object-cover z-0"
+        style = {{
+          transform: "scale(-1, 1)"
+        }}
       >
         <source 
-          src="https://vobile-apps.oss-cn-hangzhou.aliyuncs.com/apollo/homepage2.mp4" 
+          src={videoSrc} 
           type="video/mp4" 
         />
       </video>
@@ -27,13 +40,13 @@ export function HeroSection() {
           {/* 主标题 */}
           <div className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
             <span className="text-white">
-            Making Creative More Valuable™
+            {mainTitle}
             </span>
           </div>
           
           {/* 副标题 */}
           <div className="text-xl md:text-2xl lg:text-3xl font-semibold text-gray-200">
-            Power the Future of the Creative Economy
+            {subtitle}
           </div>
         </div>
       </div>

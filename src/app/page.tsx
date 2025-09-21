@@ -1,11 +1,13 @@
-import { Header } from "@/components/header";
-import { HeroSection } from "@/components/hero-section";
-import { DataOverviewSection } from "@/components/data-overview-section";
-import { DigitalValueSection } from "@/components/digital-value-section";
-import { EcosystemSection } from "@/components/ecosystem-section";
-import { TokenizedIPSection } from "@/components/tokenized-ip-section";
-import { Footer } from "@/components/footer";
-import { ScrollToTop } from "@/components/scroll-to-top";
+import {
+  Header,
+  Footer,
+  ScrollToTop,
+  HeroSection,
+  DataOverviewSection,
+  DigitalValueSection,
+  EcosystemSection,
+  TokenizedIPSection,
+} from "@/components";
 
 export default function Home() {
   return (
