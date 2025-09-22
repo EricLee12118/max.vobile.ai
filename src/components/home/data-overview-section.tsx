@@ -2,8 +2,10 @@
 
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
+import { useTypedTranslation } from "@/hooks/useTranslation";
 
 export function DataOverviewSection() {
+  const { t } = useTypedTranslation();
   return (
     <section id="data-overview" className="py-24 relative bg-black">
       {/* 背景装饰 */}
@@ -13,7 +15,7 @@ export function DataOverviewSection() {
         {/* 标题 */}
         <div className="mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">
-            Data Overview
+            {t('dataOverview.title')}
           </h2>
         </div>
 
@@ -46,16 +48,17 @@ export function DataOverviewSection() {
                   src="https://vobile-apps.oss-cn-hangzhou.aliyuncs.com/apollo/statCardBg1.png"
                   alt="Statistics background"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover opacity-30"
                 />
               </div>
               <CardContent className="p-8 relative z-10 h-full flex flex-col justify-start">
                 <div className="space-y-6 pt-4">
                   <div className="text-white text-xl md:text-2xl font-medium">
-                    Total Assets Under Management
+                    {t('dataOverview.totalAssets')}
                   </div>
                   <div className="text-5xl md:text-6xl lg:text-7xl font-bold text-white">
-                    1509 K
+                    {t('dataOverview.assetsValue')}
                   </div>
                 </div>
               </CardContent>
@@ -69,16 +72,17 @@ export function DataOverviewSection() {
                   src="https://vobile-apps.oss-cn-hangzhou.aliyuncs.com/apollo/statCardBg2.png"
                   alt="Statistics background"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover opacity-30"
                 />
               </div>
               <CardContent className="p-8 relative z-10 h-full flex flex-col justify-start">
                 <div className="space-y-6 pt-4">
                   <div className="text-white text-xl md:text-2xl font-medium">
-                    Total Tokenized Assets
+                    {t('dataOverview.totalTokenized')}
                   </div>
                   <div className="text-5xl md:text-6xl lg:text-7xl font-bold text-white">
-                    TO COME
+                    {t('dataOverview.tokenizedValue')}
                   </div>
                 </div>
               </CardContent>

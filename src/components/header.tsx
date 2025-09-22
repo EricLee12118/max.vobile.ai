@@ -1,23 +1,33 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X, Globe } from "lucide-react";
+import { Menu, X, Globe, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-
-const navigation = [
-  { name: "Home", href: "/" },
-  { name: "Creator", href: "/asset" },
-  { name: "Asset", href: "/metaAsset" },
-  { name: "DataBridge", href: "/dataBridge" },
-  { name: "Marketplace", href: "https://www.crealabs.io/", external: true },
-];
+import { useI18n } from "@/contexts/I18nContext";
+import { useTypedTranslation } from "@/hooks/useTranslation";
+import { SUPPORTED_LOCALES, type SupportedLocale } from "@/lib/i18n";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isLanguageOpen, setIsLanguageOpen] = useState(false);
+  const languageRef = useRef<HTMLDivElement>(null);
+  
+  const { locale, changeLocale } = useI18n();
+  const { t } = useTypedTranslation();
+  
+  const currentLanguage = SUPPORTED_LOCALES[locale];
+  
+  const navigation = [
+    { name: t('navigation.home'), href: "/" },
+    { name: t('navigation.creator'), href: "/asset" },
+    { name: t('navigation.asset'), href: "/metaAsset" },
+    { name: t('navigation.dataBridge'), href: "/dataBridge" },
+    { name: t('navigation.marketplace'), href: "https://www.crealabs.io/", external: true },
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,6 +37,22 @@ export function Header() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (languageRef.current && !languageRef.current.contains(event.target as Node)) {
+        setIsLanguageOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  const handleLanguageSelect = (newLocale: SupportedLocale) => {
+    changeLocale(newLocale);
+    setIsLanguageOpen(false);
+  };
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 w-full transition-all duration-300 ${
@@ -81,15 +107,42 @@ export function Header() {
               variant="ghost"
               className="text-gray-300 hover:text-white hover:bg-gray-800"
             >
-              Sign in
+              {t('navigation.signIn')}
             </Button>
-            <Button
-              variant="ghost"
-              size="icon"
-              className="text-gray-300 hover:text-white hover:bg-gray-800"
-            >
-              <Globe className="h-5 w-5" />
-            </Button>
+            <div className="relative" ref={languageRef}>
+              <Button
+                variant="ghost"
+                className="text-gray-300 hover:text-white hover:bg-gray-800 flex items-center space-x-1 px-3"
+                onClick={() => setIsLanguageOpen(!isLanguageOpen)}
+              >
+                <Globe className="h-4 w-4" />
+                <span className="text-sm">{currentLanguage.name}</span>
+                <ChevronDown className={`h-3 w-3 transition-transform duration-200 ${
+                  isLanguageOpen ? 'rotate-180' : ''
+                }`} />
+              </Button>
+              
+              {isLanguageOpen && (
+                <div className="absolute top-full right-0 mt-2 w-40 bg-black/95 backdrop-blur-xl border border-gray-700 rounded-lg shadow-xl z-50">
+                  <div className="py-2">
+                    {Object.entries(SUPPORTED_LOCALES).map(([code, language]) => (
+                      <button
+                        key={code}
+                        className={`w-full text-left px-4 py-2 text-sm transition-colors duration-200 flex items-center space-x-2 ${
+                          locale === code
+                            ? 'bg-gray-800 text-white'
+                            : 'text-gray-300 hover:bg-gray-800 hover:text-white'
+                        }`}
+                        onClick={() => handleLanguageSelect(code as SupportedLocale)}
+                      >
+                        <span className="text-base">{language.flag}</span>
+                        <span>{language.name}</span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
           </div>
 
           {/* Mobile Menu */}
@@ -148,7 +201,7 @@ export function Header() {
                     variant="ghost"
                     className="text-gray-300 hover:text-white hover:bg-gray-800 justify-start"
                   >
-                    Sign in
+                    {t('navigation.signIn')}
                   </Button>
                   <Button
                     variant="ghost"
@@ -156,7 +209,7 @@ export function Header() {
                     className="text-gray-300 hover:text-white hover:bg-gray-800 justify-start"
                   >
                     <Globe className="h-5 w-5 mr-2" />
-                    Language
+                    {t('navigation.language')}
                   </Button>
                 </div>
               </div>

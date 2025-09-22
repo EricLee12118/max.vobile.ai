@@ -1,8 +1,10 @@
 'use client'
 
 import Image from "next/image";
+import { useTypedTranslation } from "@/hooks/useTranslation";
 
 export function DataBridgeCardsSection() {
+  const { t } = useTypedTranslation();
   return (
     <section className="min-h-screen bg-black">
       <div className="grid grid-cols-1 md:grid-cols-2 h-screen">
@@ -10,13 +12,13 @@ export function DataBridgeCardsSection() {
         <div className="group relative h-full bg-black border-r border-b border-gray-800 flex flex-col justify-center items-center p-12 cursor-pointer overflow-hidden">
           <div className="text-center space-y-6 z-10">
             <h3 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              GenAI Platforms
+              {t('dataBridgePage.genAITitle')}
             </h3>
             <p className="text-gray-400 text-lg leading-relaxed max-w-md mx-auto mb-8">
-              Connect to content creation AI platforms
+              {t('dataBridgePage.genAIDescription')}
             </p>
             <button className="bg-white text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-200 transition-colors">
-              Contact US
+              {t('common.contactUs')}
             </button>
           </div>
           
@@ -35,13 +37,13 @@ export function DataBridgeCardsSection() {
         <div className="group relative h-full bg-black border-b border-gray-800 flex flex-col justify-center items-center p-12 cursor-pointer overflow-hidden">
           <div className="text-center space-y-6 z-10">
             <h3 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Content Management
+              {t('dataBridgePage.contentManagementTitle')}
             </h3>
             <p className="text-gray-400 text-lg leading-relaxed max-w-md mx-auto mb-8">
-              Become an eligible partner for content management and marketing
+              {t('dataBridgePage.contentManagementDescription')}
             </p>
             <button className="bg-white text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-200 transition-colors">
-              Contact US
+              {t('common.contactUs')}
             </button>
           </div>
           
@@ -60,13 +62,13 @@ export function DataBridgeCardsSection() {
         <div className="group relative h-full bg-black border-r border-gray-800 flex flex-col justify-center items-center p-12 cursor-pointer overflow-hidden">
           <div className="text-center space-y-6 z-10">
             <h3 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Developer
+              {t('dataBridgePage.developerTitle')}
             </h3>
             <p className="text-gray-400 text-lg leading-relaxed max-w-md mx-auto mb-8">
-              Provide APIs, SDKs, primitives, and tools for seamless integrations with your systems
+              {t('dataBridgePage.developerDescription')}
             </p>
             <button className="bg-white text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-200 transition-colors">
-              Contact US
+              {t('common.contactUs')}
             </button>
           </div>
           
@@ -85,13 +87,13 @@ export function DataBridgeCardsSection() {
         <div className="group relative h-full bg-black flex flex-col justify-center items-center p-12 cursor-pointer overflow-hidden">
           <div className="text-center space-y-6 z-10">
             <h3 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Other Service Partner
+              {t('dataBridgePage.otherServiceTitle')}
             </h3>
             <p className="text-gray-400 text-lg leading-relaxed max-w-md mx-auto mb-8">
-              Become a solution provider in our ecosystem
+              {t('dataBridgePage.otherServiceDescription')}
             </p>
             <button className="bg-white text-black px-8 py-4 rounded-full text-lg font-semibold hover:bg-gray-200 transition-colors">
-              Contact US
+              {t('common.contactUs')}
             </button>
           </div>
           

@@ -1,6 +1,9 @@
 "use client";
 
+import { useTypedTranslation } from "@/hooks/useTranslation";
+
 export function AssetOwnershipSection() {
+  const { t } = useTypedTranslation();
   return (
     <section className="py-20 bg-black">
       <div className="container mx-auto px-4 lg:px-8">
@@ -10,20 +13,20 @@ export function AssetOwnershipSection() {
             {/* Feature 1 - Ownership Clarity */}
             <div className="space-y-4">
               <h3 className="text-2xl md:text-3xl font-bold text-white">
-                1. Ownership Clarity
+                {t('assetPage.feature3Title')}
               </h3>
               <p className="text-gray-400 text-lg leading-relaxed">
-                Blockchain-backed transparency ensures indisputable rights tracking, global compliance, and protection against unauthorized use or duplication.
+                {t('assetPage.feature3Description')}
               </p>
             </div>
 
             {/* Feature 2 - Scalable Revenue */}
             <div className="space-y-4">
               <h3 className="text-2xl md:text-3xl font-bold text-white">
-                2. Scalable Revenue
+                {t('assetPage.feature4Title')}
               </h3>
               <p className="text-gray-400 text-lg leading-relaxed">
-                Fractionalize assets, automate multi-platform distribution, and tap into innovative digital economies to unlock earnings at scale—maximizing value for every creation.
+                {t('assetPage.feature4Description')}
               </p>
             </div>
           </div>

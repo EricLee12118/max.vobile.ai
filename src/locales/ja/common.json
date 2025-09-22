@@ -1,0 +1,127 @@
+{
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラー",
+    "success": "成功",
+    "confirm": "確認",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "delete": "削除",
+    "edit": "編集",
+    "view": "表示",
+    "close": "閉じる",
+    "contactUs": "お問い合わせ"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "creator": "クリエイター",
+    "asset": "アセット",
+    "dataBridge": "データブリッジ",
+    "marketplace": "マーケットプレイス",
+    "signIn": "サインイン",
+    "language": "言語"
+  },
+  "hero": {
+    "title": "クリエイティブをより価値あるものに™",
+    "subtitle": "クリエイティブエコノミーの未来を推進",
+    "description": "革新的なプラットフォームで次世代のブロックチェーン技術を体験してください。",
+    "getStarted": "始める",
+    "learnMore": "詳細を見る"
+  },
+  "dataOverview": {
+    "title": "データ概要",
+    "totalAssets": "管理総資産",
+    "totalTokenized": "トークン化総資産",
+    "assetsValue": "1509 K",
+    "tokenizedValue": "近日公開"
+  },
+  "digitalValue": {
+    "title": "デジタル価値のあらゆる段階を強化",
+    "subtitle": "クリエイティブ資産をデジタル価値に変換",
+    "creationTitle": "創作",
+    "creationDescription": "AIドリブンのコンテンツ生成と改良",
+    "registrationTitle": "登録と収益化",
+    "registrationDescription": "ワンストップの権利保護と収益化",
+    "tradingTitle": "取引",
+    "tradingDescription": "より幅幅い市場展開を可能にする柔軟な取引",
+    "learnMore": "詳細を見る"
+  },
+
+  "assetPage": {
+    "heroTitle": "クリエイティビティを永続的な価値に変換",
+    "heroSubtitle": "革新的な技術を通じてクリエイティビティを持続可能なデジタル価値に変換",
+    "featuresTitle": "クリエイティビティを永続的な価値に変換",
+    "feature1Title": "1. AIパワードコンテンツ分析",
+    "feature1Description": "高度なアルゴリズムがコンテンツの関連性を評価し、トレンドを最適化し、市場需要を予測——すべての作品が視聴者と商業目標に沿っていることを保証します。",
+    "feature2Title": "2. AIドリブン権利登録",
+    "feature2Description": "デジタル指紋とリアルタイム侵害検出を通じて自動的に所有権を検証し、コンプライアンスをスクリーニングし、権利を保護——紛争と遅延を排除します。"
+  },
+  "metaAssetPage": {
+    "tableHeaders": {
+      "assetId": "アセットID",
+      "assetName": "アセット名",
+      "link": "リンク",
+      "impact": "影響力",
+      "heat": "注目度",
+      "profitability": "収益性",
+      "portfolio": "ポートフォリオ",
+      "listingDate": "上場日",
+      "type": "タイプ"
+    },
+    "noData": "データなし"
+  },
+  "dataBridgePage": {
+    "heroTitle": "データブリッジ",
+    "heroSubtitle": "MAXはユーザーにネイティブデータとコンポーネントを提供し、外部システム、ユーザー、アプリケーションとのシームレスな接続を実現します",
+    "genAITitle": "生成AIプラットフォーム",
+    "genAIDescription": "コンテンツ作成AIプラットフォームに接続",
+    "contentManagementTitle": "コンテンツ管理",
+    "contentManagementDescription": "コンテンツ管理とマーケティングの適格パートナーになる",
+    "developerTitle": "開発者",
+    "developerDescription": "システムとのシームレスな統合のためのAPI、SDK、プリミティブ、ツールを提供",
+    "otherServiceTitle": "その他サービスパートナー",
+    "otherServiceDescription": "エコシステム内のソリューションプロバイダーになる"
+  },
+  "ecosystem": {
+    "title": "デジタルコンテンツアセットのフルライフサイクルのためのシームレスなエコシステム",
+    "challengeTitle": "課題",
+    "challengeDescription": "従来のシステムは所有権の断片化、遅いプロセス、不公平な利益分配に苦しんでいます。",
+    "solutionTitle": "ソリューション",
+    "solutionDescription": "MAXはAIパワードの作成、権利、収益化のライフサイクル管理を提供します。",
+    "ecosystemTitle": "エコシステム",
+    "ecosystemDescription": "作成、保護、市場参加をつなぐ統合プラットフォーム。"
+  },
+  "tokenizedIP": {
+    "title": "トークン化知財",
+    "subtitle": "知的財産の価値を解放",
+    "numberOfContents": "コンテンツ数",
+    "assetValue": "アセット価値",
+    "comingSoon": "近日公開",
+    "more": "もっと見る"
+  },
+  "features": {
+    "title": "機能",
+    "subtitle": "私たちの独自性を発見してください",
+    "feature1": {
+      "title": "安全で信頼性が高い",
+      "description": "エンタープライズグレードのセキュリティと信頼性を念頭に構築されています。"
+    },
+    "feature2": {
+      "title": "使いやすい",
+      "description": "初心者と専門家の両方のために設計された直感的なインターフェース。"
+    },
+    "feature3": {
+      "title": "高速で効率的",
+      "description": "最小限の手数料で稲妻のように高速な取引。"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 MAX. 全著作権所有。",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "support": "サポート",
+    "followUs": "フォローしてください",
+    "poweredBy": "Vobileが提供。MAXはエミー賞受賞者のVobile（香港取引所：3738）が提供しています。オンライン動画コンテンツ保護と収益化の為のSoftware-as-a-Serviceの世界的リーダーです。最高クラスのSaaSプラットフォームは映画スタジオ、テレビネットワーク、レコードレーベルで幅幅く使用され、権利所有者に効果的なコンテンツ保護を提供し、デジタル経済での収益成長を加速させています。Vobileは北米、アジア、オーストラリア、ヨーロッパ各大陸にグローバル事業を展開しています。詳細はこちらをご覧ください",
+    "vobileLink": "Vobile.com"
+  }
+}

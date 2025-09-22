@@ -1,0 +1,134 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "close": "Close",
+    "contactUs": "Contact US"
+  },
+  "navigation": {
+    "home": "Home",
+    "creator": "Creator",
+    "asset": "Asset",
+    "dataBridge": "DataBridge",
+    "marketplace": "Marketplace",
+    "signIn": "Sign in",
+    "language": "Language"
+  },
+  "hero": {
+    "title": "Making Creative More Valuable™",
+    "subtitle": "Power the Future of the Creative Economy",
+    "description": "Experience the next generation of blockchain technology with our innovative platform.",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Features",
+    "subtitle": "Discover what makes us unique",
+    "feature1": {
+      "title": "Secure & Reliable",
+      "description": "Built with enterprise-grade security and reliability in mind."
+    },
+    "feature2": {
+      "title": "Easy to Use",
+      "description": "Intuitive interface designed for both beginners and experts."
+    },
+    "feature3": {
+      "title": "Fast & Efficient",
+      "description": "Lightning-fast transactions with minimal fees."
+    }
+  },
+  "dataOverview": {
+    "title": "Data Overview",
+    "totalAssets": "Total Assets Under Management",
+    "totalTokenized": "Total Tokenized Assets",
+    "assetsValue": "1509 K",
+    "tokenizedValue": "TO COME"
+  },
+  "digitalValue": {
+    "title": "Empowering Every Stage of Digital Value",
+    "subtitle": "Transform your creative assets into digital value",
+    "creationTitle": "Creation",
+    "creationDescription": "AI-driven content generation and refinement",
+    "registrationTitle": "Registration & Monetization",
+    "registrationDescription": "One-stop rights protection and monetization",
+    "tradingTitle": "Trading",
+    "tradingDescription": "Flexible trading enabling broader market reach",
+    "learnMore": "Learn more"
+  },
+  "ecosystem": {
+    "title": "A Seamless Ecosystem For the Full Lifecycle of Digital Content Assets",
+    "challengeTitle": "CHALLENGE",
+    "challengeDescription": "Traditional systems struggle with fragmented ownership, slow processes, and unfair profit distribution.",
+    "solutionTitle": "SOLUTION",
+    "solutionDescription": "MAX delivers AI-powered lifecycle management for creation, rights, and monetization.",
+    "ecosystemTitle": "ECOSYSTEM",
+    "ecosystemDescription": "An integrated platform bridging creation, protection, and market engagement."
+  },
+  "tokenizedIP": {
+    "title": "Tokenized IP",
+    "subtitle": "Unlock the value of intellectual property",
+    "numberOfContents": "Number of Contents",
+    "assetValue": "Asset Value",
+    "comingSoon": "Coming Soon",
+    "more": "MORE"
+  },
+  "assetPage": {
+    "heroTitle": "Transform Creativity into Enduring Value",
+    "heroSubtitle": "Transform creativity into sustainable digital value through innovative technology",
+    "featuresTitle": "Transform Creativity into Enduring Value",
+    "feature1Title": "1. AI-Powered Content Analysis",
+    "feature1Description": "Advanced algorithms evaluate content relevance, optimize for trends, and predict market demand—ensuring every piece aligns with audience and commercial goals.",
+    "feature2Title": "2. AI-Driven Rights Registration",
+    "feature2Description": "Automatically verify ownership, screen compliance, and secure rights via digital fingerprinting and real-time infringement detection—eliminating disputes and delays.",
+    "feature3Title": "1. Ownership Clarity",
+    "feature3Description": "Blockchain-backed transparency ensures indisputable rights tracking, global compliance, and protection against unauthorized use or duplication.",
+    "feature4Title": "2. Scalable Revenue",
+    "feature4Description": "Fractionalize assets, automate multi-platform distribution, and tap into innovative digital economies to unlock earnings at scale—maximizing value for every creation.",
+    "valuableTitle": "VALUABLE",
+    "valuableDescription": "Transform creativity into tradable assets with streamlined monetization and ownership proof",
+    "creativeTitle": "CREATIVE",
+    "creativeDescription": "Unlock new possibilities through innovative blockchain technology and creative asset tokenization"
+  },
+  "metaAssetPage": {
+    "tableHeaders": {
+      "assetId": "Asset ID",
+      "assetName": "Asset Name",
+      "link": "Link",
+      "impact": "Impact",
+      "heat": "Heat",
+      "profitability": "Profitability",
+      "portfolio": "Portfolio",
+      "listingDate": "Listing Date",
+      "type": "Type"
+    },
+    "noData": "No data"
+  },
+  "dataBridgePage": {
+    "heroTitle": "DataBridge",
+    "heroSubtitle": "MAX provides native data and components for users with seamless connectivity with external systems, users, and applications",
+    "genAITitle": "GenAI Platforms",
+    "genAIDescription": "Connect to content creation AI platforms",
+    "contentManagementTitle": "Content Management",
+    "contentManagementDescription": "Become an eligible partner for content management and marketing",
+    "developerTitle": "Developer",
+    "developerDescription": "Provide APIs, SDKs, primitives, and tools for seamless integrations with your systems",
+    "otherServiceTitle": "Other Service Partner",
+    "otherServiceDescription": "Become a solution provider in our ecosystem"
+  },
+  "footer": {
+    "copyright": "© 2025 MAX. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "support": "Support",
+    "followUs": "FOLLOW US",
+    "poweredBy": "Powered by Vobile. MAX is powered by Emmy award-winning Vobile (SEHK: 3738). A worldwide leader in Software-as-a-Service for online video content protection and monetization. Its best-in-class SaaS platforms are widely used by movie studios, television networks, and record labels, enabling effective content protection for rightsholders and accelerating their revenue growth in the digital economy. Vobile has global operations across continents in North America, Asia, Australia and Europe. To learn more, visit",
+    "vobileLink": "Vobile.com"
+  }
+}

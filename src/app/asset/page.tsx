@@ -1,3 +1,5 @@
+"use client";
+
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { ScrollToTop } from "@/components/scroll-to-top";
@@ -5,6 +7,7 @@ import { HeroSection } from "@/components/hero-section";
 import { AssetFeaturesSection, AssetOwnershipSection, AssetCardsSection } from "./components";
 
 export default function AssetPage() {
+  // const { t } = useTypedTranslation(); // 暂时注释掉未使用的翻译功能
   return (
     <div className="min-h-screen bg-black text-white">
       {/* 背景装饰 */}
@@ -17,8 +20,6 @@ export default function AssetPage() {
         {/* Hero Section with Custom Content */}
         <HeroSection 
           videoSrc="https://vobile-apps.oss-cn-hangzhou.aliyuncs.com/apollo/asset.mp4"
-          mainTitle="Transform Creativity into Enduring Value"
-          subtitle=""
         />
         
         {/* Asset Features Section */}

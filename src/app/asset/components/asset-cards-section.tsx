@@ -1,8 +1,10 @@
 'use client'
 
 import Image from "next/image";
+import { useTypedTranslation } from "@/hooks/useTranslation";
 
 export function AssetCardsSection() {
+  const { t } = useTypedTranslation();
   return (
     <section className="py-20 bg-black">
       <div className="container mx-auto px-4 lg:px-8">
@@ -12,10 +14,10 @@ export function AssetCardsSection() {
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 pt-20 transition-all duration-500 group-hover:scale-105 group-hover:bg-gray-800/70">
               <div className="text-center space-y-6">
                 <h3 className="text-4xl md:text-5xl font-bold text-white tracking-wide">
-                  VALUABLE
+                  {t('assetPage.valuableTitle')}
                 </h3>
                 <p className="text-gray-400 text-lg leading-relaxed">
-                  Transform creativity into tradable assets with streamlined monetization and ownership proof
+                  {t('assetPage.valuableDescription')}
                 </p>
               </div>
             </div>
@@ -35,10 +37,10 @@ export function AssetCardsSection() {
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 pt-20 transition-all duration-500 group-hover:scale-105 group-hover:bg-gray-800/70">
               <div className="text-center space-y-6">
                 <h3 className="text-4xl md:text-5xl font-bold text-white tracking-wide">
-                  CREATIVE
+                  {t('assetPage.creativeTitle')}
                 </h3>
                 <p className="text-gray-400 text-lg leading-relaxed">
-                  Unlock new possibilities through innovative blockchain technology and creative asset tokenization
+                  {t('assetPage.creativeDescription')}
                 </p>
               </div>
             </div>

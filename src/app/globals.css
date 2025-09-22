@@ -123,6 +123,9 @@
   html {
     scroll-behavior: smooth;
   }
+  html[data-scroll-behavior="smooth"] {
+    scroll-behavior: smooth;
+  }
 }
 
 /* 隐藏滚动条但保留滚动功能 */
@@ -185,6 +188,9 @@ body {
 
 /* 平滑滚动 */
 html {
+  scroll-behavior: smooth;
+}
+html[data-scroll-behavior="smooth"] {
   scroll-behavior: smooth;
 }
 

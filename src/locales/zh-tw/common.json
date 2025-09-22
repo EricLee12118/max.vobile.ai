@@ -1,0 +1,134 @@
+{
+  "common": {
+    "loading": "載入中...",
+    "error": "錯誤",
+    "success": "成功",
+    "confirm": "確認",
+    "cancel": "取消",
+    "save": "儲存",
+    "delete": "刪除",
+    "edit": "編輯",
+    "view": "檢視",
+    "close": "關閉",
+    "contactUs": "聯絡我們"
+  },
+  "navigation": {
+    "home": "首頁",
+    "creator": "創作者",
+    "asset": "資產",
+    "dataBridge": "資料橋接",
+    "marketplace": "市場",
+    "signIn": "登入",
+    "language": "語言"
+  },
+  "hero": {
+    "title": "讓創意更有價值™",
+    "subtitle": "推動創意經濟的未來",
+    "description": "透過我們的創新平台體驗下一代區塊鏈技術。",
+    "getStarted": "開始使用",
+    "learnMore": "了解更多"
+  },
+  "dataOverview": {
+    "title": "數據概覽",
+    "totalAssets": "管理總資產",
+    "totalTokenized": "代幣化總資產",
+    "assetsValue": "1509 K",
+    "tokenizedValue": "即將推出"
+  },
+  "digitalValue": {
+    "title": "賦能數位價值的每個階段",
+    "subtitle": "將您的創意資產轉化為數位價值",
+    "creationTitle": "創作",
+    "creationDescription": "AI驅動的內容生成和優化",
+    "registrationTitle": "註冊與貨幣化",
+    "registrationDescription": "一站式權利保護和貨幣化服務",
+    "tradingTitle": "交易",
+    "tradingDescription": "靈活交易，實現更廣闊的市場覆蓋",
+    "learnMore": "了解更多"
+  },
+  "assetPage": {
+    "heroTitle": "將創意轉化為持久價值",
+    "heroSubtitle": "透過創新技術將創意轉化為可持續的數位價值",
+    "featuresTitle": "將創意轉化為持久價值",
+    "feature1Title": "1. AI驅動的內容分析",
+    "feature1Description": "先進演算法評估內容相關性，優化趨勢，預測市場需求——確保每一件作品都與受眾和商業目標保持一致。",
+    "feature2Title": "2. AI驅動的權利註冊",
+    "feature2Description": "透過數位指紋和即時侵權檢測自動驗證所有權、篩選合規性並保護權利——消除父議和延誤。",
+    "feature3Title": "1. 所有權明確化",
+    "feature3Description": "區塊鏈支持的透明度確保不可父議的權利追蹤、全球合規性和防止未經授權使用或複製。",
+    "feature4Title": "2. 可擴展收入",
+    "feature4Description": "分割資產、自動化多平台分發，並進入創新數位經濟以解鎖規模化收益——為每一個創作最大化價值。",
+    "valuableTitle": "有價值",
+    "valuableDescription": "透過簡化的貨幣化和所有權證明，將創意轉化為可交易資產",
+    "creativeTitle": "創意",
+    "creativeDescription": "透過創新的區塊鏈技術和創意資產代幣化解鎖新可能性"
+  },
+  "metaAssetPage": {
+    "tableHeaders": {
+      "assetId": "資產ID",
+      "assetName": "資產名稱",
+      "link": "鏈接",
+      "impact": "影響力",
+      "heat": "熱度",
+      "profitability": "盈利能力",
+      "portfolio": "投資組合",
+      "listingDate": "上市日期",
+      "type": "類型"
+    },
+    "noData": "暫無資料"
+  },
+  "dataBridgePage": {
+    "heroTitle": "資料橋接",
+    "heroSubtitle": "MAX為用戶提供原生資料和組件，與外部系統、用戶和應用程式實現無縫連接",
+    "genAITitle": "生成式AI平台",
+    "genAIDescription": "連接內容創作AI平台",
+    "contentManagementTitle": "內容管理",
+    "contentManagementDescription": "成為內容管理和行銷的合格合作夥伴",
+    "developerTitle": "開發者",
+    "developerDescription": "提供API、SDK、原語和工具，與您的系統無縫集成",
+    "otherServiceTitle": "其他服務合作夥伴",
+    "otherServiceDescription": "成為我們生態系統中的解決方案提供商"
+  },
+  "ecosystem": {
+    "title": "數位內容資產全生命週期的無縫生態系統",
+    "challengeTitle": "挑戰",
+    "challengeDescription": "傳統系統在所有權分散、流程緩慢和利潤分配不均方面存在困難。",
+    "solutionTitle": "解決方案",
+    "solutionDescription": "MAX提供AI驅動的創作、權利和貨幣化生命週期管理。",
+    "ecosystemTitle": "生態系統",
+    "ecosystemDescription": "一個連接創作、保護和市場參與的集成平台。"
+  },
+  "tokenizedIP": {
+    "title": "代幣化知識產權",
+    "subtitle": "釋放知識產權的價值",
+    "numberOfContents": "內容數量",
+    "assetValue": "資產價值",
+    "comingSoon": "即將推出",
+    "more": "更多"
+  },
+  "features": {
+    "title": "功能特性",
+    "subtitle": "發現我們的獨特之處",
+    "feature1": {
+      "title": "安全可靠",
+      "description": "採用企業級安全性和可靠性設計。"
+    },
+    "feature2": {
+      "title": "易於使用",
+      "description": "為初學者和專家設計的直觀介面。"
+    },
+    "feature3": {
+      "title": "快速高效",
+      "description": "閃電般快速的交易，手續費極低。"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 MAX. 保留所有權利。",
+    "privacy": "隱私政策",
+    "terms": "服務條款",
+    "support": "技術支援",
+    "followUs": "關注我們",
+    "poweredBy": "由Vobile提供支援。MAX由艾美獎獲獎者Vobile（港交所：3738）提供支援。作為在線視頻內容保護和貨幣化領域的全球軟體即服務領導者。其一流的SaaS平台被電影工作室、電視網路和唱片公司廣泛使用，為權利持有者提供有效的內容保護，並加速其在數位經濟中的收入增長。Vobile在北美、亞洲、澳大利亞和歐洲各大洲都設有全球業務。要了解更多資訊，請造訪",
+    "vobileLink": "Vobile.com"
+  }
+}

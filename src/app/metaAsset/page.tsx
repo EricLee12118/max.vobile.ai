@@ -1,4 +1,7 @@
+"use client";
+
 import { Header } from "@/components/header";
+import { useTypedTranslation } from "@/hooks/useTranslation";
 
 import {
   Table,
@@ -10,6 +13,7 @@ import {
 } from "@/components/ui/table";
 
 export default function AssetPage() {
+  const { t } = useTypedTranslation();
   return (
     <div className="min-h-screen bg-black text-white">
       {/* 背景装饰 */}
@@ -25,15 +29,15 @@ export default function AssetPage() {
               <Table>
                 <TableHeader>
                   <TableRow className="border-gray-800 hover:bg-gray-800/50">
-                    <TableHead className="text-gray-300 font-semibold w-[100px]">Asset ID</TableHead>
-                    <TableHead className="text-gray-300 font-semibold w-[200px]">Asset Name</TableHead>
-                    <TableHead className="text-gray-300 font-semibold w-[80px]">Link</TableHead>
-                    <TableHead className="text-gray-300 font-semibold w-[120px]">Impact</TableHead>
-                    <TableHead className="text-gray-300 font-semibold w-[100px]">Heat</TableHead>
-                    <TableHead className="text-gray-300 font-semibold w-[140px]">Profitability</TableHead>
-                    <TableHead className="text-gray-300 font-semibold w-[120px]">Portfolio</TableHead>
-                    <TableHead className="text-gray-300 font-semibold w-[130px]">Listing Date</TableHead>
-                    <TableHead className="text-gray-300 font-semibold w-[100px]">Type</TableHead>
+                    <TableHead className="text-gray-300 font-semibold w-[100px]">{t('metaAssetPage.tableHeaders.assetId')}</TableHead>
+                    <TableHead className="text-gray-300 font-semibold w-[200px]">{t('metaAssetPage.tableHeaders.assetName')}</TableHead>
+                    <TableHead className="text-gray-300 font-semibold w-[80px]">{t('metaAssetPage.tableHeaders.link')}</TableHead>
+                    <TableHead className="text-gray-300 font-semibold w-[120px]">{t('metaAssetPage.tableHeaders.impact')}</TableHead>
+                    <TableHead className="text-gray-300 font-semibold w-[100px]">{t('metaAssetPage.tableHeaders.heat')}</TableHead>
+                    <TableHead className="text-gray-300 font-semibold w-[140px]">{t('metaAssetPage.tableHeaders.profitability')}</TableHead>
+                    <TableHead className="text-gray-300 font-semibold w-[120px]">{t('metaAssetPage.tableHeaders.portfolio')}</TableHead>
+                    <TableHead className="text-gray-300 font-semibold w-[130px]">{t('metaAssetPage.tableHeaders.listingDate')}</TableHead>
+                    <TableHead className="text-gray-300 font-semibold w-[100px]">{t('metaAssetPage.tableHeaders.type')}</TableHead>
                   </TableRow>
                 </TableHeader>
                 <TableBody>
@@ -45,7 +49,7 @@ export default function AssetPage() {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                           </svg>
                         </div>
-                        <span className="text-gray-400 text-sm">No data</span>
+                        <span className="text-gray-400 text-sm">{t('metaAssetPage.noData')}</span>
                       </div>
                     </TableCell>
                   </TableRow>

@@ -1,3 +1,5 @@
+"use client";
+
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { ScrollToTop } from "@/components/scroll-to-top";
@@ -5,6 +7,7 @@ import { HeroSection } from "@/components/hero-section";
 import { DataBridgeCardsSection } from "./components";
 
 export default function DataBridgePage() {
+  // const { t } = useTypedTranslation(); // 暂时注释掉未使用的翻译功能
   return (
       <div className="min-h-screen bg-black text-white">
         {/* 背景装饰 */}
@@ -17,9 +20,6 @@ export default function DataBridgePage() {
           {/* Hero Section with Custom Content */}
           <HeroSection 
             videoSrc="https://vobile-apps.oss-cn-hangzhou.aliyuncs.com/apollo/dataBridge.mp4"
-            mainTitle="DataBridge"
-            subtitle="
-MAX provides native data and components for users with seamless connectivity with external systems, users, and applications"
           />
           
           <DataBridgeCardsSection />

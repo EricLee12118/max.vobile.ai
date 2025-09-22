@@ -46,6 +46,7 @@ export function DataOverviewSection() {
                   src="https://vobile-apps.oss-cn-hangzhou.aliyuncs.com/apollo/statCardBg1.png"
                   alt="Statistics background"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover opacity-30"
                 />
               </div>
@@ -69,6 +70,7 @@ export function DataOverviewSection() {
                   src="https://vobile-apps.oss-cn-hangzhou.aliyuncs.com/apollo/statCardBg2.png"
                   alt="Statistics background"
                   fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover opacity-30"
                 />
               </div>

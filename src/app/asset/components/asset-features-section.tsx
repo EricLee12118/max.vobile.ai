@@ -1,15 +1,17 @@
 "use client";
 
 import Image from "next/image";
+import { useTypedTranslation } from "@/hooks/useTranslation";
 
 export function AssetFeaturesSection() {
+  const { t } = useTypedTranslation();
   return (
     <section className="py-20 bg-black">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Section Title */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-            Transform Creativity into Enduring Value
+            {t('assetPage.featuresTitle')}
           </h2>
         </div>
 
@@ -34,20 +36,20 @@ export function AssetFeaturesSection() {
             {/* Feature 1 */}
             <div className="space-y-4">
               <h3 className="text-2xl md:text-3xl font-bold text-white">
-                1. AI-Powered Content Analysis
+                {t('assetPage.feature1Title')}
               </h3>
               <p className="text-gray-400 text-lg leading-relaxed">
-                Advanced algorithms evaluate content relevance, optimize for trends, and predict market demand—ensuring every piece aligns with audience and commercial goals.
+                {t('assetPage.feature1Description')}
               </p>
             </div>
 
             {/* Feature 2 */}
             <div className="space-y-4">
               <h3 className="text-2xl md:text-3xl font-bold text-white">
-                2. AI-Driven Rights Registration
+                {t('assetPage.feature2Title')}
               </h3>
               <p className="text-gray-400 text-lg leading-relaxed">
-                Automatically verify ownership, screen compliance, and secure rights via digital fingerprinting and real-time infringement detection—eliminating disputes and delays.
+                {t('assetPage.feature2Description')}
               </p>
             </div>
           </div>

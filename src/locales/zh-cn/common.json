@@ -1,0 +1,134 @@
+{
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "confirm": "确认",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "view": "查看",
+    "close": "关闭",
+    "contactUs": "联系我们"
+  },
+  "navigation": {
+    "home": "首页",
+    "creator": "创作者",
+    "asset": "资产",
+    "dataBridge": "数据桥接",
+    "marketplace": "市场",
+    "signIn": "登录",
+    "language": "语言"
+  },
+  "hero": {
+    "title": "让创意更有价值™",
+    "subtitle": "推动创意经济的未来",
+    "description": "通过我们的创新平台体验下一代区块链技术。",
+    "getStarted": "开始使用",
+    "learnMore": "了解更多"
+  },
+  "features": {
+    "title": "功能特性",
+    "subtitle": "发现我们的独特之处",
+    "feature1": {
+      "title": "安全可靠",
+      "description": "采用企业级安全性和可靠性设计。"
+    },
+    "feature2": {
+      "title": "易于使用",
+      "description": "为初学者和专家设计的直观界面。"
+    },
+    "feature3": {
+      "title": "快速高效",
+      "description": "闪电般快速的交易，手续费极低。"
+    }
+  },
+  "dataOverview": {
+    "title": "数据概览",
+    "totalAssets": "管理总资产",
+    "totalTokenized": "代币化总资产",
+    "assetsValue": "1509 K",
+    "tokenizedValue": "即将推出"
+  },
+  "digitalValue": {
+    "title": "赋能数字价值的每个阶段",
+    "subtitle": "将您的创意资产转化为数字价值",
+    "creationTitle": "创作",
+    "creationDescription": "AI驱动的内容生成和优化",
+    "registrationTitle": "注册与货币化",
+    "registrationDescription": "一站式权利保护和货币化服务",
+    "tradingTitle": "交易",
+    "tradingDescription": "灵活交易，实现更广阔的市场覆盖",
+    "learnMore": "了解更多"
+  },
+  "ecosystem": {
+    "title": "数字内容资产全生命周期的无缝生态系统",
+    "challengeTitle": "挑战",
+    "challengeDescription": "传统系统在所有权分散、流程缓慢和利润分配不均方面存在困难。",
+    "solutionTitle": "解决方案",
+    "solutionDescription": "MAX提供AI驱动的创作、权利和货币化生命周期管理。",
+    "ecosystemTitle": "生态系统",
+    "ecosystemDescription": "一个连接创作、保护和市场参与的集成平台。"
+  },
+  "tokenizedIP": {
+    "title": "代币化知识产权",
+    "subtitle": "释放知识产权的价值",
+    "numberOfContents": "内容数量",
+    "assetValue": "资产价值",
+    "comingSoon": "即将推出",
+    "more": "更多"
+  },
+  "assetPage": {
+    "heroTitle": "将创意转化为持久价值",
+    "heroSubtitle": "通过创新技术将创意转化为可持续的数字价值",
+    "featuresTitle": "将创意转化为持久价值",
+    "feature1Title": "1. AI驱动的内容分析",
+    "feature1Description": "先进算法评估内容相关性，优化趋势，预测市场需求——确保每一件作品都与受众和商业目标保持一致。",
+    "feature2Title": "2. AI驱动的权利注册",
+    "feature2Description": "通过数字指纹和实时侵权检测自动验证所有权、筛选合规性并保护权利——消除争议和延误。",
+    "feature3Title": "1. 所有权明确化",
+    "feature3Description": "区块链支持的透明度确保不可争议的权利追踪、全球合规性和防止未经授权使用或复制。",
+    "feature4Title": "2. 可扩展收入",
+    "feature4Description": "分割资产、自动化多平台分发，并进入创新数字经济以解锁规模化收益——为每一个创作最大化价值。",
+    "valuableTitle": "有价值",
+    "valuableDescription": "通过简化的货币化和所有权证明，将创意转化为可交易资产",
+    "creativeTitle": "创意",
+    "creativeDescription": "通过创新的区块链技术和创意资产代币化解锁新可能性"
+  },
+  "metaAssetPage": {
+    "tableHeaders": {
+      "assetId": "资产ID",
+      "assetName": "资产名称",
+      "link": "链接",
+      "impact": "影响力",
+      "heat": "热度",
+      "profitability": "盈利能力",
+      "portfolio": "投资组合",
+      "listingDate": "上市日期",
+      "type": "类型"
+    },
+    "noData": "暂无数据"
+  },
+  "dataBridgePage": {
+    "heroTitle": "数据桥接",
+    "heroSubtitle": "MAX为用户提供原生数据和组件，与外部系统、用户和应用程序实现无缝连接",
+    "genAITitle": "生成式AI平台",
+    "genAIDescription": "连接内容创作AI平台",
+    "contentManagementTitle": "内容管理",
+    "contentManagementDescription": "成为内容管理和营销的合格合作伙伴",
+    "developerTitle": "开发者",
+    "developerDescription": "提供API、SDK、原语和工具，与您的系统无缝集成",
+    "otherServiceTitle": "其他服务合作伙伴",
+    "otherServiceDescription": "成为我们生态系统中的解决方案提供商"
+  },
+  "footer": {
+    "copyright": "© 2025 MAX. 保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "support": "技术支持",
+    "followUs": "关注我们",
+    "poweredBy": "由Vobile提供支持。MAX由艾美奖获奖者Vobile（港交所：3738）提供支持。作为在线视频内容保护和货币化领域的全球软件即服务领导者。其一流的SaaS平台被电影工作室、电视网络和唱片公司广泛使用，为权利持有者提供有效的内容保护，并加速其在数字经济中的收入增长。Vobile在北美、亚洲、澳大利亚和欧洲各大洲都设有全球业务。要了解更多信息，请访问",
+    "vobileLink": "Vobile.com"
+  }
+}

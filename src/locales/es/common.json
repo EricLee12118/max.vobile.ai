@@ -1,0 +1,134 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "close": "Cerrar",
+    "contactUs": "Contáctanos"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "creator": "Creador",
+    "asset": "Activo",
+    "dataBridge": "Puente de Datos",
+    "marketplace": "Mercado",
+    "signIn": "Iniciar sesión",
+    "language": "Idioma"
+  },
+  "hero": {
+    "title": "Haciendo la Creatividad Más Valiosa™",
+    "subtitle": "Impulsa el Futuro de la Economía Creativa",
+    "description": "Experimenta la próxima generación de tecnología blockchain con nuestra plataforma innovadora.",
+    "getStarted": "Comenzar",
+    "learnMore": "Saber más"
+  },
+  "dataOverview": {
+    "title": "Resumen de Datos",
+    "totalAssets": "Activos Totales Bajo Gestión",
+    "totalTokenized": "Activos Tokenizados Totales",
+    "assetsValue": "1509 K",
+    "tokenizedValue": "PRÓXIMAMENTE"
+  },
+  "digitalValue": {
+    "title": "Potenciando cada etapa del valor digital",
+    "subtitle": "Transforma tus activos creativos en valor digital",
+    "creationTitle": "Creación",
+    "creationDescription": "Generación y refinamiento de contenido impulsado por IA",
+    "registrationTitle": "Registro y Monetización",
+    "registrationDescription": "Protección de derechos y monetización integral",
+    "tradingTitle": "Comercio",
+    "tradingDescription": "Comercio flexible que permite un alcance de mercado más amplio",
+    "learnMore": "Saber más"
+  },
+  "ecosystem": {
+    "title": "Ecosistema fluido para todo el ciclo de vida de activos de contenido digital",
+    "challengeTitle": "Desafío",
+    "challengeDescription": "Los sistemas tradicionales luchan con propiedad fragmentada, procesos lentos y distribución desigual de ganancias.",
+    "solutionTitle": "Solución",
+    "solutionDescription": "MAX proporciona gestión del ciclo de vida de creación, derechos y monetización impulsada por IA.",
+    "ecosystemTitle": "Ecosistema",
+    "ecosystemDescription": "Una plataforma integrada que conecta la creación, protección y participación en el mercado."
+  },
+  "tokenizedIP": {
+    "title": "Propiedad Intelectual Tokenizada",
+    "subtitle": "Desbloquea el valor de la propiedad intelectual",
+    "numberOfContents": "Número de Contenidos",
+    "assetValue": "Valor del Activo",
+    "comingSoon": "PRÓXIMAMENTE",
+    "more": "MÁS"
+  },
+  "assetPage": {
+    "heroTitle": "Transforma la Creatividad en Valor Duradero",
+    "heroSubtitle": "Transforma la creatividad en valor digital sostenible a través de tecnología innovadora",
+    "featuresTitle": "Transforma la Creatividad en Valor Duradero",
+    "feature1Title": "1. Análisis de Contenido Impulsado por IA",
+    "feature1Description": "Algoritmos avanzados evalúan la relevancia del contenido, optimizan las tendencias y predicen la demanda del mercado, asegurando que cada pieza se alinee con los objetivos de audiencia y comerciales.",
+    "feature2Title": "2. Registro de Derechos Impulsado por IA",
+    "feature2Description": "Verifica automáticamente la propiedad, filtra el cumplimiento y asegura los derechos a través de huella digital y detección de infracción en tiempo real, eliminando disputas y retrasos.",
+    "feature3Title": "1. Clarificación de Propiedad",
+    "feature3Description": "La transparencia respaldada por blockchain garantiza un seguimiento de derechos indiscutible, cumplimiento global y prevención de uso no autorizado o duplicación.",
+    "feature4Title": "2. Ingresos Escalables",
+    "feature4Description": "Fracciona activos, automatiza la distribución multiplataforma e ingresa a economías digitales innovadoras para desbloquear ganancias a escala, maximizando el valor de cada creación.",
+    "valuableTitle": "Valioso",
+    "valuableDescription": "Transforma la creatividad en activos comercializables a través de monetización simplificada y prueba de propiedad",
+    "creativeTitle": "Creativo",
+    "creativeDescription": "Desbloquea nuevas posibilidades a través de tecnología blockchain innovadora y tokenización de activos creativos"
+  },
+  "metaAssetPage": {
+    "tableHeaders": {
+      "assetId": "ID del Activo",
+      "assetName": "Nombre del Activo",
+      "link": "Enlace",
+      "impact": "Impacto",
+      "heat": "Popularidad",
+      "profitability": "Rentabilidad",
+      "portfolio": "Portafolio",
+      "listingDate": "Fecha de Cotización",
+      "type": "Tipo"
+    },
+    "noData": "Sin datos"
+  },
+  "dataBridgePage": {
+    "heroTitle": "Puente de Datos",
+    "heroSubtitle": "MAX proporciona datos y componentes nativos para usuarios con conectividad perfecta con sistemas externos, usuarios y aplicaciones",
+    "genAITitle": "Plataformas de IA Generativa",
+    "genAIDescription": "Conéctate a plataformas de IA para creación de contenido",
+    "contentManagementTitle": "Gestión de Contenido",
+    "contentManagementDescription": "Convértete en un socio elegible para gestión de contenido y marketing",
+    "developerTitle": "Desarrollador",
+    "developerDescription": "Proporciona APIs, SDKs, primitivos y herramientas para integraciones perfectas con tus sistemas",
+    "otherServiceTitle": "Otros Socios de Servicio",
+    "otherServiceDescription": "Convértete en un proveedor de soluciones en nuestro ecosistema"
+  },
+  "features": {
+    "title": "Características",
+    "subtitle": "Descubre lo que nos hace únicos",
+    "feature1": {
+      "title": "Seguro y Confiable",
+      "description": "Construido con seguridad y confiabilidad de grado empresarial en mente."
+    },
+    "feature2": {
+      "title": "Fácil de Usar",
+      "description": "Interfaz intuitiva diseñada tanto para principiantes como para expertos."
+    },
+    "feature3": {
+      "title": "Rápido y Eficiente",
+      "description": "Transacciones ultrarrápidas con tarifas mínimas."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 MAX. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "support": "Soporte",
+    "followUs": "SÍGUENOS",
+    "poweredBy": "Desarrollado por Vobile. MAX está desarrollado por Vobile (SEHK: 3738), ganador del premio Emmy. Líder mundial en Software-as-a-Service para protección y monetización de contenido de video en línea. Sus plataformas SaaS de primer nivel son ampliamente utilizadas por estudios de cine, redes de televisión y sellos discográficos, permitiendo protección efectiva de contenido para propietarios de derechos y acelerando su crecimiento de ingresos en la economía digital. Vobile tiene operaciones globales en continentes de América del Norte, Asia, Australia y Europa. Para obtener más información, visita",
+    "vobileLink": "Vobile.com"
+  }
+}

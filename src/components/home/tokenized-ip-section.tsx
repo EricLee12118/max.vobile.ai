@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
+import { useTypedTranslation } from "@/hooks/useTranslation";
 
 interface TokenizedIPCard {
   id: number;
@@ -17,13 +18,14 @@ const tokenizedIPCards: TokenizedIPCard[] = [
 ];
 
 export function TokenizedIPSection() {
+  const { t } = useTypedTranslation();
   return (
     <section className="py-20 bg-black">
       <div className="container mx-auto px-4 lg:px-8">
         {/* 标题 */}
         <div className="mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">
-            Tokenized IP
+            {t('tokenizedIP.title')}
           </h2>
         </div>
 
@@ -50,7 +52,7 @@ export function TokenizedIPSection() {
                           <span className="text-gray-400 text-sm">•</span>
                         </div>
                         <div className="text-gray-400 text-xs mt-1">
-                          Number of Contents
+                          {t('tokenizedIP.numberOfContents')}
                         </div>
                       </div>
                     </div>
@@ -64,7 +66,7 @@ export function TokenizedIPSection() {
                         <span className="text-gray-400 text-lg">{card.currency}</span>
                       </div>
                       <div className="text-gray-400 text-xs mt-1">
-                        Asset Value
+                        {t('tokenizedIP.assetValue')}
                       </div>
                     </div>
                   </div>
@@ -86,7 +88,7 @@ export function TokenizedIPSection() {
                 {/* Coming Soon */}
                 <div className="text-center mt-4">
                   <div className="text-white font-semibold text-lg">
-                    Coming Soon
+                    {t('tokenizedIP.comingSoon')}
                   </div>
                 </div>
 
@@ -101,7 +103,7 @@ export function TokenizedIPSection() {
             <CardContent className="p-6 flex items-center justify-center h-full">
               <div className="text-center">
                 <span className="text-3xl md:text-4xl font-bold text-white group-hover:text-gray-200 transition-colors duration-300">
-                  MORE
+                  {t('tokenizedIP.more')}
                 </span>
               </div>
             </CardContent>

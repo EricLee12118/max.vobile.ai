@@ -3,11 +3,12 @@
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { useTypedTranslation } from "@/hooks/useTranslation";
 
 interface DigitalValueStage {
   id: number;
-  title: string;
-  description: string;
+  titleKey: 'digitalValue.creationTitle' | 'digitalValue.registrationTitle' | 'digitalValue.tradingTitle';
+  descriptionKey: 'digitalValue.creationDescription' | 'digitalValue.registrationDescription' | 'digitalValue.tradingDescription';
   image: string;
   alt: string;
 }
@@ -15,35 +16,37 @@ interface DigitalValueStage {
 const digitalValueStages: DigitalValueStage[] = [
   {
     id: 1,
-    title: "Creation",
-    description: "AI-driven content generation and refinement",
+    titleKey: 'digitalValue.creationTitle',
+    descriptionKey: 'digitalValue.creationDescription',
     image: "https://vobile-apps.oss-cn-hangzhou.aliyuncs.com/apollo/Creation.svg",
     alt: "Creation"
   },
   {
     id: 2,
-    title: "Registration & Monetization",
-    description: "One-stop rights protection and monetization",
+    titleKey: 'digitalValue.registrationTitle',
+    descriptionKey: 'digitalValue.registrationDescription',
     image: "https://vobile-apps.oss-cn-hangzhou.aliyuncs.com/apollo/Registration&Monetization.svg",
     alt: "Registration & Monetization"
   },
   {
     id: 3,
-    title: "Trading",
-    description: "Flexible trading enabling broader market reach",
+    titleKey: 'digitalValue.tradingTitle',
+    descriptionKey: 'digitalValue.tradingDescription',
     image: "https://vobile-apps.oss-cn-hangzhou.aliyuncs.com/apollo/Trading.svg",
     alt: "Trading"
   }
 ];
 
 export function DigitalValueSection() {
+  const { t } = useTypedTranslation();
+  
   return (
     <section className="py-20 bg-black">
       <div className="container mx-auto px-4 lg:px-8">
         {/* 标题 */}
         <div className="text-center mb-16">
           <h2 className="text-3xl text-left md:text-4xl lg:text-5xl font-bold text-white mb-8">
-            Empowering Every Stage of Digital Value
+            {t('digitalValue.title')}
           </h2>
         </div>
 
@@ -71,10 +74,10 @@ export function DigitalValueSection() {
                 {/* 内容区域 */}
                 <div className="space-y-4">
                   <h3 className="text-xl md:text-2xl font-bold text-white group-hover:text-gray-200 transition-colors duration-300">
-                    {stage.title}
+                    {t(stage.titleKey)}
                   </h3>
                   <p className="text-gray-400 leading-relaxed">
-                    {stage.description}
+                    {t(stage.descriptionKey)}
                   </p>
                 </div>
                 
@@ -84,7 +87,7 @@ export function DigitalValueSection() {
                     variant="secondary"
                     className="bg-gray-800 hover:bg-gray-700 text-white px-6 py-2 rounded-full transition-all duration-300 group-hover:scale-105"
                   >
-                    Learn more
+                    {t('digitalValue.learnMore')}
                   </Button>
                 </div>
               </CardContent>
