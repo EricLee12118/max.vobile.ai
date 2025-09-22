@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X, Globe, ChevronDown } from "lucide-react";
@@ -49,10 +49,10 @@ export function Header() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const handleLanguageSelect = (newLocale: SupportedLocale) => {
+  const handleLanguageSelect = useCallback((newLocale: SupportedLocale) => {
     changeLocale(newLocale);
     setIsLanguageOpen(false);
-  };
+  }, [changeLocale]);
 
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 w-full transition-all duration-300 ${
@@ -71,6 +71,7 @@ export function Header() {
                 alt="MAX Logo"
                 width={120}
                 height={32}
+                priority
                 className="h-8 w-auto"
               />
             </Link>

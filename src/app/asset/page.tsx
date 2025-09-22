@@ -10,9 +10,7 @@ export default function AssetPage() {
   // const { t } = useTypedTranslation(); // 暂时注释掉未使用的翻译功能
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* 背景装饰 */}
-      <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] bg-grid-animated opacity-30" />
-      
+
       {/* 主要内容 */}
       <div className="relative z-10">
         <Header />

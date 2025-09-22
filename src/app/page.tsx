@@ -1,20 +1,33 @@
+import dynamic from "next/dynamic";
 import {
   Header,
   Footer,
   ScrollToTop,
   HeroSection,
-  DataOverviewSection,
-  DigitalValueSection,
-  EcosystemSection,
-  TokenizedIPSection,
 } from "@/components";
+
+// 懒加载非关键组件提升初始加载性能
+const DataOverviewSection = dynamic(() => 
+  import("@/components").then(mod => ({ default: mod.DataOverviewSection })),
+  { ssr: true }
+);
+const DigitalValueSection = dynamic(() => 
+  import("@/components").then(mod => ({ default: mod.DigitalValueSection })),
+  { ssr: true }
+);
+const EcosystemSection = dynamic(() => 
+  import("@/components").then(mod => ({ default: mod.EcosystemSection })),
+  { ssr: true }
+);
+const TokenizedIPSection = dynamic(() => 
+  import("@/components").then(mod => ({ default: mod.TokenizedIPSection })),
+  { ssr: true }
+);
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
-      {/* 背景装饰 */}
-      <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] bg-grid-animated opacity-30" />
-      
+
       {/* 主要内容 */}
       <div className="relative z-10">
         <Header />

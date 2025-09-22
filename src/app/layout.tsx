@@ -32,6 +32,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning data-scroll-behavior="smooth">
+      <head>
+        {/* 预加载关键资源 */}
+        <link
+          rel="preload"
+          href="https://vobile-apps.oss-cn-hangzhou.aliyuncs.com/apollo/siteLogo.svg"
+          as="image"
+        />
+        <link
+          rel="preconnect"
+          href="https://vobile-apps.oss-cn-hangzhou.aliyuncs.com"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning

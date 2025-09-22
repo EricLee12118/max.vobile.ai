@@ -172,20 +172,6 @@ body {
   }
 }
 
-/* 背景网格动画 */
-@keyframes grid-move {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(20px, 20px);
-  }
-}
-
-.bg-grid-animated {
-  animation: grid-move 20s linear infinite;
-}
-
 /* 平滑滚动 */
 html {
   scroll-behavior: smooth;
